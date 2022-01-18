@@ -18,12 +18,13 @@ h1{
 img{
     margin-left: 2%;
     margin-right: 2%;
-    width: 90%;
+    width: 110%;
     border: 2px solid #fff;
 }
 #slideshow{
     display: flex;
     width:80%;
+    margin-top: 9%;
     margin-left: auto;
     margin-right: auto;
     align-items:center;
@@ -55,12 +56,12 @@ img{
 #arrow_left{
     display: flex;
     float: left;
-    padding-right: 8%;
+    padding-right: 12%;
 }
 #arrow_right{
     display: flex;
     float:0;
-    padding-left: 4%;
+    padding-left: 6%;
 }
 #arrow_right:hover, #arrow_left:hover{
     color: #fff;
