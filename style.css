@@ -4,6 +4,13 @@
 */
 
 html,body{
-    background-color: #00ffff;
+    background-color: #6cf5f5;
     text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+#characteristics{
+    background-color: rgba(61, 61, 116,0.7);
+    padding: 2%;
 }
