@@ -1,0 +1,68 @@
+body{
+    background-image: url("img/background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: Brush Script MT, cursive;
+    color: #20a7b1;
+    text-align: center;
+    overflow: hidden;
+}
+h1,h2{
+    letter-spacing: 8px;
+    text-align: center;
+    margin-top: 1%;
+}
+h1{
+    font-size: 3.5rem;
+}
+img{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 90%;
+    border: 2px solid #fff;
+}
+#slideshow{
+    display: flex;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center;
+    justify-content: center;
+}
+.big{
+    width: 28%;
+    z-index: 100;
+    position: relative;
+}
+.medium{
+    width: 20%;
+    z-index: 70;
+    position: relative;
+    opacity: 0.6;
+}
+.small{
+    width: 12%;
+    z-index: 40;
+    position: relative;
+    opacity: 0.4;
+}
+#arrows{
+    font-size: 3.5rem;
+    margin-top: 3%;
+    margin-left:42%;
+    cursor:pointer;
+}
+#arrow_left{
+    display: flex;
+    float: left;
+    padding-right: 8%;
+}
+#arrow_right{
+    display: flex;
+    float:0;
+    padding-left: 4%;
+}
+#arrow_right:hover, #arrow_left:hover{
+    color: #fff;
+    text-shadow:5px 5px 10px #1fc2ce;
+}

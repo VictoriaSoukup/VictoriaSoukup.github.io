@@ -1,0 +1,58 @@
+/* Stylesheet Victoria Soukup*/
+@font-face {
+    font-family: squealerFont;
+    src: url(squealer.ttf);
+  }
+body{
+    background: linear-gradient(90deg, rgb(58, 58, 59) 0%, rgb(117, 116, 116) 35%, rgb(223, 218, 218) 100%);
+    font-family: squealerFont;
+    
+}
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+/*layout background*/
+.infobox{
+    width: 17%;
+    padding-top: 1%;
+    margin:1%;
+    box-shadow: 4px 6px 3px #f1eded;
+    padding-bottom: 1%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 1.8%;
+}
+
+/*content output box*/
+#boxes{
+    width:100%;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+}
+/*spotify link design*/
+#spotify{
+    padding:2.5%;
+    border: 3px black solid;
+    background-color: #15a033;
+    border-radius: 48%;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+#spotify a{
+    color:#fff;
+    text-decoration: none;
+}
+/* singer images */
+img{
+    text-align: center;
+    padding: 0.7%;
+    margin: 1%;
+    width:80%;
+    height: 290px;
+}

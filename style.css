@@ -2,15 +2,51 @@
 /* Autor: Victoria Soukup
 /* Class: 2BHITM
 */
-
 html,body{
-    background-color: #6cf5f5;
-    text-align: center;
+    background-color: #c3f0f0;
+    color: white;
 }
 ul{
     list-style-type: none;
 }
-#characteristics{
-    background-color: rgba(61, 61, 116,0.7);
-    padding: 2%;
+h1{
+    text-align: center;
+    text-shadow: 4px 3px #312c2c;
+    font-size: 3rem;
+    font-weight: bold;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+#description, #music{
+    display: flex;
+    float: left;
+    padding: 2%;
+    margin-top: 4%;
+    margin-left: 7%;
+    font-size: 1.2rem;
+    width: 45%;
+    background-color: rgba(61, 61, 116,0.6);
+    border: 2px black solid;
+}
+#characteristics, #photos{
+    display: flex;
+    float: right;
+    background-color: rgba(61, 61, 116,0.6);
+    padding: 2%;
+    margin-top: 4%;
+    margin-right: 7%;
+    font-size: 1.2rem;
+    width: 25%;
+    border: 2px black solid;
+}
+#music{
+    font-weight: bold;
+    margin-top: 5%;
+}
+#photos{
+    font-weight: bold;
+    margin-top: 5%;
+}
+
